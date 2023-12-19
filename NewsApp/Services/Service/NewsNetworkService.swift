@@ -12,7 +12,7 @@ class NewsNetworkService {
 
 
     func execute(completion: @escaping (NewsResponse?) -> Void) {
-        AF.request("https://newsapi.org/v2/top-headlines?country=us&apiKey=d698cf7f624f4cf08ee1a3bc73f4fb60")
+        AF.request("https://newsapi.org/v2/top-headlines?country=us&apiKey=API_KEY")
             .validate()
             .responseDecodable(of: NewsResponse.self) { response in
                 switch response.result {
@@ -27,7 +27,7 @@ class NewsNetworkService {
     
     
     func searchExecute(value: String = "turkey", completion: @escaping (NewsResponse?) -> Void) {
-        let apiKey = "d698cf7f624f4cf08ee1a3bc73f4fb60"
+        let apiKey = "API_KEY"
         let urlString = "https://newsapi.org/v2/everything?q=\(value)&sortBy=popularity&apiKey=\(apiKey)"
         
         AF.request(urlString)
