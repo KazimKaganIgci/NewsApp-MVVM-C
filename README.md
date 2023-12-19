@@ -7,6 +7,8 @@ MVVM-C (Model-View-ViewModel-Coordinator), bir tasarım deseni olarak kullanıla
 
 
 <img width="394" alt="Screenshot 2023-12-02 at 22 06 40" src="https://github.com/KazimKaganIgci/RickandMorty-MVVM-C/assets/61113947/10a6d6af-ffe4-4d62-ac9c-b901dd9c518b">
+
+
 ## Model
 
 - Model, uygulamanın temel veri yapısını ve iş mantığını temsil eder.
