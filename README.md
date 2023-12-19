@@ -1,5 +1,3 @@
-# RickandMorty-MVVM-C
-
 # MVVM-C Tasarım Deseni
 
 MVVM-C (Model-View-ViewModel-Coordinator), bir tasarım deseni olarak kullanılan bir yapıdır. Bu yapı, Model-View-ViewModel (MVVM) desenini geliştirir ve uygulamaya bir Coordinator ekleyerek sayfa yönetimini daha etkili bir şekilde ele alır.
